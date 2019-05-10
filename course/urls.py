@@ -5,5 +5,5 @@ from .views import AboutView, CourseListView, ManageCourseListView, CreateCourse
 app_name = "course" 
 
 urlpatterns = [
-    #path('about/', TemplateView.as_view(template_name="course/about.html")),
+    path('about/', TemplateView.as_view(template_name="course/about.html")),
      ]
